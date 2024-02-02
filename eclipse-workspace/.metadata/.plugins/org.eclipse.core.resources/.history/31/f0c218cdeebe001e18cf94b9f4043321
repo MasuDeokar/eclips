@@ -1,0 +1,12 @@
+package excelWork;
+
+public class testSample {
+
+	public static void main(String[] args) {
+		
+		dataDrivenByArray d =new dataDrivenByArray();
+		
+
+	}
+
+}
