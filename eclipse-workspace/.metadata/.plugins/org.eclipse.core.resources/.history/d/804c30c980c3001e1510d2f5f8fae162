@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module DataBaseTesting {
+	requires java.sql;
+	requires org.seleniumhq.selenium.chrome_driver;
+}
