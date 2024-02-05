@@ -1,0 +1,6 @@
+public class heyiam{
+
+public static void main(String [] args){
+System.out.println("Hey Earth, How are you; I am chandryan !!!");
+}
+}

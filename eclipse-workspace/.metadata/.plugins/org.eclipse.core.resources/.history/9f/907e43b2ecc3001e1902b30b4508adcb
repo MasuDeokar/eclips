@@ -1,0 +1,23 @@
+
+public class explicasttype{
+	public static void main (String [] args){
+		
+		double big1=120.859948937995667;
+		float small1=(float)big1;
+		//chance of data loss due to the explicit type casting.
+		long small2=(long)small1;
+		//chance of data loss due to the explicit type casting.
+		int small3=(int)small2;
+		//chance of data loss due to the explicit type casting.
+		short small4=(short)small3;
+		//chance of data loss due to the explicit type casting.
+		byte small5=(byte)small4;
+		//chance of data loss due to the explicit type casting.
+		
+		System.out.println(big1);
+		System.out.println(small1);
+		System.out.println(small2);
+		System.out.println(small3);
+		System.out.println(small4);
+		System.out.println(small5);
+}}

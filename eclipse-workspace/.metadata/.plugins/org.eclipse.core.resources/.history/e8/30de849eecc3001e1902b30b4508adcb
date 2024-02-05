@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class condisix{
+
+public static void main(String [] args){
+	
+
+	Scanner sc =new Scanner (System.in);
+	System.out.println("Enter Age");
+	int age = sc.nextInt();
+	if (age >=0 && age<=17){
+System.out.println("You are Minor and you cann't vote");
+	}
+	else if(age>=18 && age<=60){
+System.out.println("You are adult and eligible for vote");	
+	}
+else if (age>=61 && age<=120){
+System.out.println("You are Senior citizen and you will get special treatment at Voting booth");	
+	}
+	else if (age<=0 && age>=120) {
+System.out.println("You are not a Human");	
+	}
+}
+}

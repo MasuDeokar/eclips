@@ -1,0 +1,14 @@
+public class condithree{
+
+public static void main(String [] args){
+
+int i=19;
+if (i>=20)
+{
+System.out.println("Number is greater than equal to 20");
+}
+else{
+System.out.println("Number is less than equal to 20");
+}
+}
+}

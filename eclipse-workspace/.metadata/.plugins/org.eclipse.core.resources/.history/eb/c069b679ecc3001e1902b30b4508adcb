@@ -1,0 +1,19 @@
+
+public class implicasttype{
+public static void main(String[] args){
+
+byte small1=125;
+short big1=small1;
+int big2=big1;
+long big3=big2;
+float big4=big3;
+double big5=big4;
+
+System.out.println(small1);
+System.out.println(big1);
+System.out.println(big2);
+System.out.println(big3);
+System.out.println(big4);
+System.out.println(big5);
+}
+}	

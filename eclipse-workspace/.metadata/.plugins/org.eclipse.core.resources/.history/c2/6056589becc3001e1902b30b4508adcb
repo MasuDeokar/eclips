@@ -1,0 +1,38 @@
+import java.util.Scanner;
+public class condiseven{
+public static void main (String[] args){
+
+Scanner sc = new Scanner(System.in);
+char choice;
+
+do{
+System.out.println("Enter Obtained Marks :- ");
+int i = sc.nextInt();
+if (i>=90 && i<=100){
+	System.out.println("Obtained Grade is 'Class-A'");
+}
+else if (i>=80 && i<=89){
+	System.out.println("Obtained Grade is 'Class-B'");
+}
+else if (i>=70 && i<=79){
+	System.out.println("Obtained Grade is 'Class-C'");
+}	
+else if (i>=60 && i<=69){
+	System.out.println("Obtained Grade is 'Class-D'");
+}	
+else if (i>=50 && i<=59){
+	System.out.println("Obtained Grade is 'Class-E'");
+}	
+else if (i>=0 && i<=49){
+	System.out.println("Obtained Grade is 'Class-Fail'");
+}	
+else {
+	System.out.println("Invalid Obtained Marks, Not in data base");
+}	
+System.out.println("Do you want to enter any other obtained marks(Y/N):- ");
+choice =sc.next().charAt(0);
+}
+while(choice=='Y'|| choice != 'N');
+sc.close();
+}
+}

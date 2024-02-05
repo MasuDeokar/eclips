@@ -1,0 +1,26 @@
+package javaAllExamples;
+
+public class DataTypeAll {
+
+	public static void main(String[] args) {
+
+		int i = 34;
+		char c = 'A';
+		String s = "Shamanth";
+		double d = 43.55;
+		float f = 23.5f;
+		long l = 899898899;
+		boolean b = true;
+		int[] num = { 1, 23, 55, 57, 45 };
+		System.out.println(i);
+		System.out.println(c);
+		System.out.println(s);
+		System.out.println(d);
+		System.out.println(f);
+		System.out.println(l);
+		System.out.println(b);
+		System.out.println(num);
+
+	}
+
+}

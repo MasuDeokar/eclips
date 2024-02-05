@@ -1,0 +1,22 @@
+public class allprim{
+public static void main(String[] args){
+
+int first = 3636636;
+long second = 6378829999246648L;
+byte third = 45;
+float forth = 45.004f;
+double fifth = 34.00000007777;
+short sixth = 345;
+char eight = 'M';
+boolean night = true;
+
+System.out.println(first);
+System.out.println(second);
+System.out.println(third);
+System.out.println(forth);
+System.out.println(sixth);
+System.out.println(eight);
+System.out.println(night);
+}
+}
+

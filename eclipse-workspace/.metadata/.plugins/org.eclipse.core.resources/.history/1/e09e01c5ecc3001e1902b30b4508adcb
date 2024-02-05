@@ -1,0 +1,22 @@
+package javaAllExamples;
+
+import java.util.Scanner;
+public class condifive{
+
+
+
+public static void main(String [] args){
+
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter Number");
+
+int i= sc.nextInt();
+if (i>100){
+	System.out.println("Number is greater than or equal to 100");
+}
+else
+{
+System.out.println("Number is greater than or equal to 100");
+}
+}
+}

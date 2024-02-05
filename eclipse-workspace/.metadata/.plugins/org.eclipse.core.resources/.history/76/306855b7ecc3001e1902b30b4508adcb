@@ -1,0 +1,34 @@
+package javaAllExamples;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Hello {
+
+	public static void main(String[] args) {
+
+		String a = "Hello Earth!!! I am Chandryaan !!!";
+		System.out.println(a);
+		System.out.println();
+
+		String b = new String("Hello Chandryaan!!! I am Aditya L1 !!!");
+		System.out.println(b);
+		System.out.println();
+
+		ArrayList<String> names = new ArrayList<String>();
+		names.add("Hello Earth!!!");
+		names.add("I am Chandryaan !!!");
+		names.add("Hello Chandryaan!!!");
+		names.add("I am Aditya L1 !!!");
+		System.out.println(names);
+		System.out.println();
+
+		List<String> names1 = Arrays.asList("Hello Earth!!!", " I am Chandryaan !!!", "Hello Chandryaan!!!",
+				"I am Aditya L1 !!!");
+		System.out.println(names1);
+		System.out.println();
+
+	}
+
+}
