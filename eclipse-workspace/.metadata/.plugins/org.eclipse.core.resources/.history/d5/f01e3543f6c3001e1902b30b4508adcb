@@ -1,0 +1,14 @@
+package windowPopupHandling;
+
+
+public class windowPopUp {
+
+	public static void main(String[] args) {
+		
+		
+		WebDriver driver = new ChromeDriver(); 
+		driver.manage().window().maximize(); 
+
+	}
+
+}
