@@ -1,0 +1,13 @@
+package javaAllExamples;
+
+public class ParentDemoOne {
+	
+	String name = "Shamanth Deokar";
+
+	public static void main(String[] args) {
+
+		
+
+	}
+
+}

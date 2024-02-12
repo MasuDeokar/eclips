@@ -1,0 +1,12 @@
+package javaAllExamples;
+
+public class ArrayMultiDimtwo {
+
+	public static void main(String[] args) {
+		
+		int b[][]= {{2,5,8},{78,12,78},{6,9,10}};
+		
+
+	}
+
+}

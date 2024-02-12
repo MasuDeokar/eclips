@@ -1,0 +1,5 @@
+package javaAllExamples;
+
+public interface ContinentalTraffic {
+
+}

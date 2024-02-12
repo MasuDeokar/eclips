@@ -1,0 +1,12 @@
+package masudeomvn.Mavenjava;
+
+public class SeleniumTest {
+	
+	@Test
+	
+	public void BrowserAutomation()
+	{
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package javaAllExamples;
+
+public class ParentClassDemo {
+
+	public void gear()
+	{
+		System.out.println("Gear code is updaed.");
+	}
+	public void breaks()
+	{
+		System.out.println("Breaks code is updaed.");
+	}
+	public void color()
+	{
+		System.out.println("Color code is updaed.");
+	}
+	
+	public void audioSystem()
+	{
+		System.out.println("AudioSystem code is updaed.");
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		String color = "red";
+
+	}
+
+}

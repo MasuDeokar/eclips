@@ -1,0 +1,24 @@
+package javaAllExamples;
+class Theone {
+
+	String i;
+	int B;
+		void display(int y,String x)
+		{
+			
+			 i =x;
+			 B=y;
+		}
+		void show()
+		{
+			System.out.println(i);
+			System.out.println(B);
+		}
+
+		public static void main(String[] args) 
+		{		
+		Theone call=new Theone();
+		call.display(10,"Hello");
+		call.show();
+		}
+	}

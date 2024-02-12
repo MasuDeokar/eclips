@@ -1,0 +1,27 @@
+package javaAllExamples;
+
+import java.util.Stack;
+
+public class Theone {
+
+	public static int i=5;
+	int B;
+		void display(int y)
+		{
+			
+			
+			 B=y;
+		}
+		void show()
+		{			System.out.print(i);
+
+			System.out.println(B);
+		}
+
+		public static void main(String[] args) 
+		{		
+		Theone call=new Theone();
+		call.display(10);
+		call.show();
+		}
+	}

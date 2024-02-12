@@ -43,12 +43,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="masudeomvn.Mavenjava"/>
 			<item value="dadaDriven.excelDataProvider"/>
 		</list>
 		<list key="groupId">
+			<item value="masudeomvn"/>
 			<item value="dadaDriven"/>
 		</list>
 		<list key="artifactId">
+			<item value="Mavenjava"/>
 			<item value="excelDataProvider"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -84,11 +87,13 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="masudeocrossbrowser"/>
 			<item value="masudeokarcdp"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="CrossBrowserTest"/>
 			<item value="SeleniumFeaturesLatest"/>
 		</list>
 		<list key="version">

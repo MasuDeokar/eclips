@@ -1,0 +1,9 @@
+package javaAllExamples;
+
+public interface CentralTrafficInterfaceOne {
+	
+	public void greenGo();
+	public void redStop();
+	public void flashYellowWait();
+
+}

@@ -1,0 +1,18 @@
+package javaAllExamples;
+
+public class ChildDemoOne extends ParentDemoOne {
+
+	String name ="Vaishali Deokar";
+	
+	public void getStringdata()
+	{
+		System.out.println(name);
+	}	
+	
+	public static void main(String[] args) {
+
+		ChildDemoOne cd = new ChildDemoOne();
+		cd.getStringdata();
+	}
+
+}

@@ -1,0 +1,25 @@
+package javaAllExamples;
+
+public class ConstructorParameterizedOne {
+
+	public ConstructorParameterizedOne() {
+		System.out.println("I am the Constructor.");
+		System.out.println("I am the Constructor lecture One.");
+	}
+
+	public ConstructorParameterizedOne(int a, int b) {
+		System.out.println("I am the Parameterized Constructor.");
+	}
+
+	public void getData() {
+		System.out.println("I am the Method.");
+	}
+
+	public static void main(String[] args) {
+
+		@SuppressWarnings("unused")
+		ConstructorParameterizedOne cd = new ConstructorParameterizedOne();
+
+	}
+
+}
