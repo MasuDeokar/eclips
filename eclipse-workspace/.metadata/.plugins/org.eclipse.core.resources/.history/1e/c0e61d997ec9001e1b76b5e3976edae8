@@ -1,0 +1,23 @@
+package javaAllExamples;
+
+public class AccessModifierDemo {
+	
+	
+	public void abs() {
+		System.out.println("Hello I am Chandryaan #!!!"); // Public access modifier.
+		//it can use anywhere in same package and outside of package.
+	}
+	 void abc() {
+		System.out.println("Hello I am AdityaL1 #!!!"); // Default access modifier. 
+					  //it can use anywhere in same package not out side of package.
+	}
+
+	public static void main(String[] args) {
+		
+		AccessModifierDemo obj = new AccessModifierDemo();
+		obj.abs();
+		obj.abc();
+
+	}
+
+}

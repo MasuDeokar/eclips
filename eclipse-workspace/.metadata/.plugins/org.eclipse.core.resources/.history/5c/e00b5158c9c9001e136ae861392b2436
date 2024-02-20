@@ -1,0 +1,25 @@
+package javaAllExamples;
+
+import java.util.HashSet;
+
+public class HashSetExample {
+	
+	// hasSet ,Treeset , LinkedHashSet implements set interface.
+	// Set class does not accept duplicate values.
+	// There is no guarantee elements stored in sequential order.
+
+	public static void main(String[] args) {
+		
+		HashSet<String> hs = new HashSet<String>();
+		hs.add("Shamanth");
+		hs.add("India");
+		hs.add("Maharashtra");
+		hs.add("India");
+		System.out.println(hs);
+		
+		
+		
+
+	}
+
+}

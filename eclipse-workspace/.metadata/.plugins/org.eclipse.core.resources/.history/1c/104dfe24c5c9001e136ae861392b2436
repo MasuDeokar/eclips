@@ -1,0 +1,22 @@
+package javaAllExamples;
+
+import java.util.ArrayList;
+
+public class ArrayListExample {
+
+	public static void main(String[] args) {
+		
+		//ArrayList has dynamic size  increase by adding and by decrease by removing.
+		
+		ArrayList<String> a =new ArrayList<String>();
+		a.add("Shamanth");
+		a.add("Java");
+		System.out.println(a);
+		a.add(0, "Student");
+		System.out.println(a);
+		a.remove(2);
+		
+
+	}
+
+}
